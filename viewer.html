@@ -470,6 +470,12 @@
       var videoContainer = document.querySelector('.video-container');
       var audioContainer = document.querySelector('.audio-container');
 
+      // 添加sidebarToggle点击事件
+      var sidebarToggle = document.getElementById('sidebarToggle');
+
+      // 页面加载时触发一次点击
+      sidebarToggle.click();
+
       // 监听PDF中的链接点击事件
       pdfViewer.addEventListener('click', function (e) {
         // 获取点击的元素
