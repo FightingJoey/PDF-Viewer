@@ -432,19 +432,19 @@
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">视频播放</h5>
+          <h5 class="modal-title" id="exampleModalLabel">音视频播放</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
           <div class="video-container">
-            <video class="w-100" id="video" controls>
+            <video class="w-100" id="video" style="max-height: 480px;" controls>
               <source src="/2.mp4" type="video/mp4">
               您的浏览器不支持 HTML5 视频播放。
             </video>
           </div>
 
           <div class="audio-container">
-            <audio controls id="audio">
+            <audio controls id="audio" style="width: 100%;">
               <source src="/2.mp3" type="audio/mpeg">
               您的浏览器不支持 HTML5 音频播放。
             </audio>
